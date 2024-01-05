@@ -1,0 +1,387 @@
+[
+  {
+    "text": "Have you consumed soylent or soy milk in the past 12 months?",
+    "id": "0",
+    "note": "",
+    "points": 5,
+    "acceptsCustomInput": "false",
+  },
+
+  {
+    "text": "Do you subscribe to 3 or more streaming services?",
+    "id": "1",
+    "note": "",
+    "points": 5
+  },
+
+  {
+    "text": "Do you go to the movie theatre at least monthly?",
+    "id": "2",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Have you watched at least 2 Disney movies in the last 12 months?",
+    "id": "3",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Do you pay for anime (via a paid streaming service or otherwise)?",
+    "id": "4",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Do you have more than 2 HD TVs?",
+    "id": "5",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Do you have cable?",
+    "id": "6",
+    "note": "",
+    "points": 4
+  },
+
+  {
+    "text": "Do you have a premium phone?",
+    "id": "7",
+    "note": "(A phone released within the past 2 years with an MSRP of at least $500)",
+    "points": 3
+  },
+
+  {
+    "text": "Do you upgrade your phone every year?",
+    "id": "8",
+    "note": "",
+    "points": 4
+  },
+
+  {
+    "text": "Do you use a meal delivery service or have a DashPass subscription?",
+    "id": "9",
+    "note": "",
+    "points": 8
+  },
+
+  {
+    "text": "Do you have YouTube premium?",
+    "id": "10",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Do you have Spotify premium?",
+    "id": "11",
+    "note": "",
+    "points": 1
+  },
+
+  {
+    "text": "Do you have Twitter premium?",
+    "id": "12",
+    "note": "Also known as X to extreme soys",
+    "points": 10
+  },
+
+  {
+    "text": "Do you have Discord Nitro?",
+    "id": "13",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Have you spent money on Reddit in the last 12 months?",
+    "id": "14",
+    "note": "",
+    "points": 4
+  },
+
+  {
+    "text": "Do you use 3 or more social media platforms?",
+    "id": "15",
+    "note": "Discord counts",
+    "points": 2
+  },
+
+  {
+    "text": "Have you eaten junk food in the last week?",
+    "id": "16",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Do you order a large drink at fast food establishments?",
+    "id": "17",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Have you ever ordered the Ice Spice Latte?",
+    "id": "18",
+    "note": "185 grams of sugar bro it shouldn't be legal to sell that shit",
+    "points": 12
+  },
+
+  {
+    "text": "Have you consumed soda in the last week?",
+    "id": "19",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Have you eaten at a restaurant at least twice in the last week?",
+    "id": "20",
+    "note": "Fast food counts",
+    "points": 4
+  },
+
+  {
+    "text": "Have you gone out drinking in the last week?",
+    "id": "21",
+    "note": "",
+    "points": 1
+  },
+
+  {
+    "text": "Do you own a funko pop?",
+    "id": "22",
+    "note": "",
+    "points": 12
+  },
+
+  {
+    "text": "Do you own 5 or more funko pops?",
+    "id": "23",
+    "note": "",
+    "points": 20
+  },
+
+  {
+    "text": "Have you bought legos as an adult?",
+    "id": "24",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Have you gone to a Disneyland theme park as a childless adult?",
+    "id": "25",
+    "note": "",
+    "points": 20
+  },
+
+  {
+    "text": "Do you wear $100+ sneakers?",
+    "id": "26",
+    "note": "",
+    "points": 1
+  },
+
+  {
+    "text": "Can you change a tire?",
+    "id": "27",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you smoke weed?",
+    "id": "28",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Do you smoke cigarettes?",
+    "id": "29",
+    "note": "",
+    "points": 5
+  },
+
+  {
+    "text": "Do you vape?",
+    "id": "30",
+    "note": "",
+    "points": 6
+  },
+
+  {
+    "text": "Do you self host any web services?",
+    "id": "31",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you do your own home or truck repairs?",
+    "id": "32",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you repair your own electronic devices?",
+    "id": "33",
+    "note": "Desktop & laptop computers included",
+    "points": -1
+  },
+
+  {
+    "text": "Do you play an instrument?",
+    "id": "34",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you remove the tracking from links before sending them?",
+    "id": "35",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you, as a man, wear nail polish?",
+    "id": "36",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Have you exercised in the last week?",
+    "id": "37",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Are you a farmer?",
+    "id": "38",
+    "note": "Gardening doesn't count",
+    "points": -3
+  },
+
+  {
+    "text": "Do you work a trade?",
+    "id": "39",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Have you cooked in the last week?",
+    "id": "40",
+    "note": "Microwave usage doesn't count",
+    "points": -1
+  },
+
+  {
+    "text": "Do you have a garden?",
+    "id": "41",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you use an ad blocker?",
+    "id": "42",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you have any children?",
+    "id": "43",
+    "note": "Under or over 18, both count",
+    "points": 1
+  },
+
+  {
+    "text": "Do you have a local music file collection?",
+    "id": "44",
+    "note": "Streaming service encrypted downloads don't count",
+    "points": -1
+  },
+
+  {
+    "text": "Do you own a current generation gaming console?",
+    "id": "45",
+    "note": "",
+    "points": 2
+  },
+
+  {
+    "text": "Do you own a gaming PC?",
+    "id": "46",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Have you spent $100+ on games in the last 12 months?",
+    "id": "47",
+    "note": "Microtrasactions count",
+    "points": 3
+  },
+
+  {
+    "text": "Have you spent $300+ on games in the last 12 months?",
+    "id": "48",
+    "note": "Microtrasactions count",
+    "points": 6
+  },
+
+  {
+    "text": "Do you program in COBOL?",
+    "id": "49",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you _not_ have the tools to perform a home repair right now?",
+    "id": "50",
+    "note": "",
+    "points": 5
+  },
+
+  {
+    "text": "Have you played Minecraft Bedrock Edition in the last 12 months?",
+    "id": "51",
+    "note": "",
+    "points": 3
+  },
+
+  {
+    "text": "Do you own any cryptocurrency?",
+    "id": "52",
+    "note": "",
+    "points": 8
+  },
+
+  {
+    "text": "Do you have 1 or more siblings?",
+    "id": "53",
+    "note": "",
+    "points": -1
+  },
+
+  {
+    "text": "Do you regularly attend a gym and/or lift weights?",
+    "id": "54",
+    "note": "",
+    "points": -1
+  }
+]
