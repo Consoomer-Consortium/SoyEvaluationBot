@@ -4,7 +4,7 @@
     "id": "0",
     "note": "",
     "points": 5,
-    "acceptsCustomInput": "false",
+    "acceptsCustomInput": "false"
   },
 
   {
@@ -383,5 +383,77 @@
     "id": "54",
     "note": "",
     "points": -1
+  },
+  {
+    "text": "Do you participate in brand loyalty programs or collect reward points?",
+    "id": "55",
+    "note": "",
+    "points": 3
+  },
+  {
+    "text": "Are you a member of Amazon Prime or other similar services?",
+    "id": "56",
+    "note": "",
+    "points": 2
+  },
+  {
+    "text": "Do you tend to buy items you see advertised on social media?",
+    "id": "57",
+    "note": "",
+    "points": 3
+  },
+  {
+    "text": "Do you usually research products extensively before buying?",
+    "id": "58",
+    "note": "",
+    "points": -2
+  },
+  {
+    "text": "Is repairability a consideration to you while purchasing a product?",
+    "id": "59",
+    "note": "",
+    "points": -3
+  },
+  {
+    "text": "Do you make impulse purchases?",
+    "id": "60",
+    "note": "",
+    "points": 1
+  },
+  {
+    "text": "Do you buy things to impress others or show off your wealth?",
+    "id": "61",
+    "note": "",
+    "points": 4
+  },
+  {
+    "text": "Do you prioritize buying expensive or luxury brands, even if you can't afford them?",
+    "id": "62",
+    "note": "",
+    "points": 10
+  },
+  {
+    "text": "Do you often forget about subscriptions you're paying for and don't use regularly?",
+    "id": "63",
+    "note": "",
+    "points": 2
+  },
+  {
+    "text": "Do you walk on average 5k steps per day?",
+    "id": "64",
+    "note": "",
+    "points": -2
+  },
+  {
+    "text": "Have you salvaged things from the trash or otherwise to be thrown out?",
+    "id": "65",
+    "note": "",
+    "points": -5
+  },
+  {
+    "text": "Do you buy second hand whenever you can?",
+    "id": "66",
+    "note": "",
+    "points": -3
   }
 ]
