@@ -1,17 +1,15 @@
 package com.rpi.soybot.database;
 
-import net.dv8tion.jda.api.entities.User;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.rpi.soybot.Util;
+
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -257,10 +255,10 @@ public class Database {
         }
     }
 
-    public void setupDefaultQuestions() throws SQLException, IOException {
+    public int setupDefaultQuestions() throws SQLException, IOException {
         this.sqlite.getStatement("DELETE FROM Questions").execute();
 
-        JSONArray questionsArray = new JSONArray(Files.readString(Paths.get("./questions.json")));
+        JSONArray questionsArray = new JSONArray(Util.getRequest("https://raw.githubusercontent.com/Consoomer-Consortium/SoyEvaluationBot/main/questions.json"));
 
         for(int index = 0; index < questionsArray.length(); index++) {
             JSONObject object = (JSONObject) questionsArray.get(index);
@@ -273,6 +271,8 @@ public class Database {
             this.addQuestion(questionId, question, questionNote, pointModifier);
             //System.out.println("Added question: " + questionId + " / " + question + " / " + questionNote + " / " + pointModifier);
         }
+
+        return questionsArray.length();
     }
 
     public void addQuestion(int questionId, String question, String questionNote, int pointModifier) throws SQLException {

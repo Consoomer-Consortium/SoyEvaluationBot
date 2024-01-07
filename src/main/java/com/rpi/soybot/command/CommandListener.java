@@ -3,6 +3,7 @@ package com.rpi.soybot.command;
 import com.rpi.soybot.command.impl.CommandAssess;
 import com.rpi.soybot.command.impl.CommandForceEvaluateUser;
 import com.rpi.soybot.command.impl.CommandPing;
+import com.rpi.soybot.command.impl.CommandReload;
 import com.rpi.soybot.command.impl.CommandScore;
 import com.rpi.soybot.database.Database;
 import com.rpi.soybot.database.Sqlite;
@@ -37,6 +38,8 @@ public class CommandListener extends ListenerAdapter {
     }
 
     public void registerCommands() {
+        //rpie guidId: 204621105720328193
+        //jared guildId 744420915315605564
         String guildId = ("204621105720328193"); //TODO switch to global commands
         Guild guild = this.jda.getGuildById(guildId);
 
@@ -44,6 +47,7 @@ public class CommandListener extends ListenerAdapter {
         this.registerCommand(new CommandAssess(this), guild);
         this.registerCommand(new CommandScore(this), guild);
         this.registerCommand(new CommandForceEvaluateUser(this), guild);
+        this.registerCommand(new CommandReload(this), guild);
 
         guild.updateCommands().queue();
         //this.jda.updateCommands();
