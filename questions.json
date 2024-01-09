@@ -383,5 +383,12 @@
     "id": "54",
     "note": "",
     "points": -1
+  },
+
+  {
+    "text": "Do you have a high end phone?",
+    "id": "55",
+    "note": "(The most expensive lineup of phones a company sells, with an MSRP of usually at least $1000. Examples include the Samsung Galaxy S Ultra and iPhone Pro phones)",
+    "points": 7
   }
 ]
